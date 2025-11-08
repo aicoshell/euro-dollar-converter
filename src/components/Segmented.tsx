@@ -6,6 +6,9 @@ export function Segmented({ options, value, onChange, ariaLabel }: {
   onChange: (v: string) => void
   ariaLabel?: string
 }) {
+  // Segmented control accessible (role="group") pour sélectionner une option exclusive
+  // - Utilise des boutons standards pour bénéficier du focus natif et des lecteurs d’écran
+  // - L’état actif est reflété par la classe et aria-pressed
   return (
     <div className="segmented" role="group" aria-label={ariaLabel}>
       {options.map(opt => (

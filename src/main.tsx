@@ -1,3 +1,5 @@
+// Point d'entrée de l'application React
+// - Active StrictMode pour détecter les effets indésirables en dev
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
