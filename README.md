@@ -46,6 +46,6 @@ npm run preview    # prévisualiser le build localement
 
 ## Stack
 
-- React 19, TypeScript, Vite
-- Vitest, @testing-library/react, jsdom
+- React TypeScript, Vite
+- Vitest, @testing-library/react, jsdom 
 
