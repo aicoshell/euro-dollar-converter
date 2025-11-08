@@ -76,8 +76,14 @@ body { background: radial-gradient(1100px 650px at 20% -10%, #12214a 0%, #0b1020
 .insight-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
 .insight-title { color: var(--muted); font-size: 13px; }
 .insight-rate { font-variant-numeric: tabular-nums; font-weight: 700; }
-.spark { width: 100%; height: 42px; }
+.spark { width: 100%; height: 96px; }
 .spark-line { fill: none; stroke: var(--success); stroke-width: 2.25; filter: drop-shadow(0 1px 0 rgba(255,255,255,0.05)); }
+.spark-fill { fill: url(#sparkFill); }
+.spark-baseline { stroke: rgba(255,255,255,0.08); stroke-width: 1; shape-rendering: crispEdges; }
+.spark-dot { fill: var(--success); stroke: #0b1020; stroke-width: 1.2; }
+.spark-grid { stroke: rgba(255,255,255,0.06); stroke-width: 1; shape-rendering: crispEdges; }
+.spark-grid.v { stroke-dasharray: 2 4; }
+.spark-label { fill: var(--muted); font-size: 10px; dominant-baseline: hanging; }
 
 /* Table */
 .table-card { margin-top: -4px; }
